@@ -42,7 +42,7 @@ function App() {
       />
       <button onClick={handleSearch}>Search</button>
 
-      {loading && <p>Loading data…</p>}
+      {loading && <p>Loading data...</p>}
 
       {weather && (
         <div className="weather-cards" style={{ marginTop: "20px" }}>
